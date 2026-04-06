@@ -8,7 +8,7 @@ A clean, interactive personal finance dashboard built with **React.js**, featuri
 
 ## 🌐 Live Demo
 
-👉 **[https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)**
+👉 **[https://finance-dashboard-nu-ecru.vercel.app/](https://finance-dashboard-nu-ecru.vercel.app/)**
 
 ---
 
