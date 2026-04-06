@@ -28,7 +28,7 @@ const NavMenu = ({ setIsOpen }) => {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 onClick={() => setIsOpen(false)}
-                className="fixed inset-0 bg-black/20 backdrop-blur-sm z[50]"
+                className="fixed inset-0 bg-black/20 backdrop-blur-sm z-[50]"
             />
 
             {/* Menu Panel */}
@@ -36,7 +36,7 @@ const NavMenu = ({ setIsOpen }) => {
                 initial={{ opacity: 0, scale: 0.95, y: -20 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.95, y: -20 }}
-                className='absolute top-20 right-4 w-72 bg-white border border-gray-100 rounded[2rem] shadow-2xl p-4 z[60]'
+                className='absolute top-20 right-4 w-72 bg-white border border-gray-100 rounded-[2rem] shadow-2xl p-4 z-[60]'
             >
                 <div className='flex flex-col gap-2'>
                     <p className='text-[10px] uppercase tracking-widest text-gray-400 font-bold px-4 mb-1'>
@@ -61,7 +61,7 @@ const NavMenu = ({ setIsOpen }) => {
                         </NavLink>
                     ))}
 
-                    <div className='h[1px] bg-gray-100 my-2 mx-2' />
+                    <div className='h-[1px] bg-gray-100 my-2 mx-2' />
 
                     <p className='text-[10px] uppercase tracking-widest text-gray-400 font-bold px-4 mb-1'>
                         Support & Settings
@@ -85,7 +85,7 @@ const NavMenu = ({ setIsOpen }) => {
                         </div>
                     </div>
 
-                    <div className='h[1px] bg-gray-100 my-2 mx-2' />
+                    <div className='h-[1px] bg-gray-100 my-2 mx-2' />
 
                     {/* Logout Button */}
                     <button

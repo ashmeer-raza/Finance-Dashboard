@@ -17,7 +17,7 @@ const Login = () => {
     };
 
     return (
-        <Paper elevation={3} className="min-h-screen w-full flex items-center justify-center bg-[#f8fafc] relative overflow-hidden ">
+        <Paper elevation={3} className="min-h-screen w-full flex items-center justify-center bg-[#f8fafc] relative overflow-hidden">
             <div className="min-h-screen w-full flex items-center justify-center bg-[#f8fafc] relative overflow-hidden">
                 {/* Background Decorative Circles */}
                 <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-indigo-100 rounded-full blur-3xl opacity-60" />
@@ -27,7 +27,7 @@ const Login = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="w-full max-w[450px] p-8 mx-4 bg-white/80 backdrop-blur-xl border border-white shadow-[0_20px_50px_rgba(0,0,0,0.05)] rounded-[2.5rem] z-10"
+                    className="w-full max-w-[450px] p-8 mx-4 bg-white/80 backdrop-blur-xl border border-white shadow-[0_20px_50px_rgba(0,0,0,0.05)] rounded-[2.5rem] z-10"
                 >
                     {/* Logo Section */}
                     <div className="flex flex-col items-center mb-8">
@@ -116,7 +116,7 @@ const Login = () => {
 
                     <div className="mt-8 text-center">
                         <p className="text-sm text-slate-500">
-                            Don't have an account? <span className="text-indigo-600 font-semibold cursor-pointer hover:underline">Request Access</span>
+                            Don't have an account? <span className="text-black font-semibold cursor-pointer hover:underline">Request Access</span>
                         </p>
                     </div>
                 </motion.div>
